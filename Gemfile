@@ -60,3 +60,11 @@ group :development do
   # gem "spring"
 end
 
+
+gem "devise", "~> 4.9"
+
+gem "rspec-rails", "~> 6.1"
+
+gem "devise-jwt"
+
+gem "rack-cors"
