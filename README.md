@@ -1,24 +1,17 @@
-# README
+## Authentification vs Authorization
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Authentification: credentials that prove user is who they say they are (most commonly username and psswrd)
+- Authorization: what user has access to when logged in
 
-Things you may want to cover:
+## Devise
 
-* Ruby version
+- gem that helps with authentification and authorization
+- ability to create user
+- user can log in and have access to certain parts of application
+- bank analogy
 
-* System dependencies
+## JWT (js web tokens)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- token handed from backend to frontend
+- tells our app a user is logged in (session) and authenticated
+- credit card analogy
